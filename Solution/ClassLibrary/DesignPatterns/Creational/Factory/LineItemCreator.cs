@@ -13,7 +13,7 @@
         /// <param name="name">Name of Product.</param>
         /// <param name="quanity">Quantity Purchased.</param>
         /// <param name="initialPrice">Initial Price for the product.</param>
-        /// <returns></returns>
+        /// <returns>Line Item</returns>
         public abstract LineItem CreateLineItem(string name, int quanity, decimal initialPrice);
     }
 }
